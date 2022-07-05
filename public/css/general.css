@@ -1,0 +1,13 @@
+:root{
+    --colorFondoHead: #EAC926;
+    --colorFondoMenu:#03264C;
+    --colorIconoFooter: #1259c3;
+    --colorSubtituloFooter: #666;
+    --colorParrafoFooter: #ebebeb;
+    --colorVerde: #39b54a;
+    --textoCuerpo: 12px;
+    --textoTitulo: 24px;
+    --textoPrecio: 18px;
+    --textoDescuentoDescripcion: 16px
+}
+
