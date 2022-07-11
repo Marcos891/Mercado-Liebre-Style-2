@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/117c6921aa.js" crossorigin="anonymous"></script>
     <title>Mercado Liebre</title>
 </head>
-<body>
-    <header>
-        <section>
+
+<body class="home">
+    <header class="home__header">
+        <section class="home__header__logo">
             <img src="/img/logo-mercado-liebre.svg" alt="logo">
         </section>
 
@@ -16,15 +20,59 @@
             <input type="text">
             <button type="submit">Buscar</button>
         </form>
+
+        <section>
+            <h4><i class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de credito</h4>
+        </section>
+
+        <button class="home__header__burger" type="menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="home__header__banner"><img src="/img/img-home-banner.jpg" alt=""></div>
+
+        <section class="home__header__section">
+            <nav class="home__header__section__nav">
+                <ul>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href=""></a>Tienda Oficiales</li>
+                    <li><a href=""></a>Vender</li>
+                    <li><a href=""></a>Ayuda</li>
+                </ul>
+            </nav>
+
+            <nav class="home__header__section__nav">
+                <ul>
+                    <li><a href="">Crea tu cuenta</a> <i class="fa-solid fa-id-card"></i></li>
+                    <li><a href="">Ingresa</a> <i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+                    <li><a href="">Mis Compra</a> <i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>
+            </nav>
+        </section>
+
     </header>
 
-    <main>
+    <main class="home__main">
+        <section class="home__main__section">
+            <article>
+                <div>
+                    <img src="/img/img-cafetera-moulinex.jpg" alt="Cafetera">
+                </div>
+            </article>
+            <div class="home__main__truck">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+            <h5>$6.770</h5>
+            <h6>50% off</h6>
+            <h4>Cafetera Moulinex</h4>
+        </section>
 
     </main>
 
     <footer>
 
     </footer>
-    
+
 </body>
+
 </html>
