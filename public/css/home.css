@@ -1,5 +1,6 @@
 .home{
     font-family:'Roboto';
+
     
 
 }
@@ -12,7 +13,7 @@
 
 .home__header__logo{
     width: 47%;
-    padding: 10px;
+    padding: 15px;
 }
 
 .home__header__burger{
@@ -25,22 +26,43 @@
     
 }
 
+.home__header section{
+    margin: 9px;
+
+}
+
 .home__header__banner img{
-/*     display: none;
- */    width: 99%;
-    margin: 2px;
-    padding-top: 13px;
+/*  display: none; */
+    display: flex;
+    width: 98%;
+    margin: 20px auto;
+    text-align: center;
+    padding-top: 15px 0;
     
+}
+
+.home__header h2{
+    color: var(--colorSubtituloFooter);
+    font-size: var(--textoTitulo);
 }
 
 .home__header__section{
     display: none;
 }
 
+.home__header__section__nav{
+    margin-bottom: 15px;
+}
+
+.home__header__section__nav li{
+    list-style-type: none;
+    margin-bottom: 2px;
+    
+}
 /* main */
 
 .home__main h5, h6{
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 .home__main__section{
@@ -51,11 +73,11 @@
 .home__main__section article{
     margin: 10px;
     border-top: 1px solid #ebebeb;
-    padding: 15px;
+    padding: 3px;
 }
 
 .home__main__section img{
-width: 60%;
+width: 40%;
 }
 
 .home__main__truck{
@@ -71,6 +93,50 @@ width: 60%;
         display: none;
 
 }
+
+/* footer */
+
+.home__footer li{
+    list-style-type: none;
+}
+
+.home__footer h4{
+    text-align: center;
+    color:var(--colorSubtituloFooter);;
+}
+
+.home__footer p{
+    text-align: center;
+    color: #a3a2a2;
+    font-size: 12px;
+    margin: 5px;
+}
+
+
+.home__footer__card{
+    text-align: center;
+    color: #1259c3;
+    margin: 5px;
+    
+}
+
+.home__footer__gift{
+    text-align: center;
+    color: #1259c3;
+    margin: 5px;
+}
+
+.home__footer__shield{
+    text-align: center;
+    color: #1259c3;
+    margin: 5px;
+}
+
+.home__footer h6{
+    margin: 15px;   
+}
+
+
 
 
 @media (min-width: 768px){
@@ -88,7 +154,7 @@ width: 60%;
     }
 
     /* main */
-    .home__main{
+    .home__main__section{
         box-shadow : 0px 0px 10px rgb ( 100 , 100 , 100 );
      }
 
